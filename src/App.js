@@ -5,7 +5,6 @@ import Login from "./pages/login/Login";
 import Profile from "./pages/profile/Profile";
 
 import{
-  BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
@@ -13,7 +12,6 @@ import{
 
 function App() {
   return (
-  <Router>
     <Routes>
       <Route exact path="/" element={<Login/>}>
       </Route>
@@ -26,7 +24,6 @@ function App() {
       <Route exact path="/home/description" element={<Description/>}>
       </Route>
     </Routes>
-  </Router>
 );
 }
 
