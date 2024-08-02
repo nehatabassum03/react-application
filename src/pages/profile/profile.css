@@ -1,0 +1,86 @@
+.profile-form {
+    max-width: 570px;
+    margin: auto;
+    border: 2px solid rgb(133, 99, 119);
+    background-color: rgb(212, 210, 199);
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: rgb(185, 180, 151);
+    width: 100%;
+  }
+  
+  .profile-pic {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-top: 70px;
+    padding: 0px;
+  }
+  
+  .edit-btn {
+    font-size: 13px;
+    color: white;
+    border: none;
+    width: 40px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 460px;
+    color: black;
+    padding: 0px;
+  }
+  
+  .edit-btn:hover {
+    background-color: rgb(185, 180, 151)
+  }
+  
+  .profile-fields {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .profile-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .profile-field label {
+    margin-bottom: 5px;
+  }
+  
+  .profile-field input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1cf;
+  }
+  
+  .profile-field input:disabled {
+    background-color: rgba(190, 188, 188, 0.783);
+  }
+
+  .labelWrap{
+    width: 50%;
+  }
+
+  .labelWrap2{
+    width: 50%;
+  }
+
+  .propertyLabel{
+    display: block;
+    width: auto;
+  }
+
+  .propertyLabel2{
+    display: block;
+    width: auto;
+  }
+  

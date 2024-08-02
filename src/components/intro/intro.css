@@ -1,0 +1,43 @@
+.introcontainer{
+    height: 570px;
+    width: 100%;
+    background-color: rgb(185, 180, 151);
+    display: flex;
+    overflow: hidden;
+}
+
+.messagecontainer{
+    height: 570px;
+    width: 30%;
+    float: left;
+    background-color: rgb(185, 180, 151);
+}
+
+.messagebox{
+    align-items: center;
+    font-size: 30px;
+    margin-top: 250px;
+    margin-left: 90px;
+    letter-spacing: 1.5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(185, 180, 151);
+}
+
+.imagecontainer{
+    height: 570px;
+    width: 70%;
+    float: right;
+    background-color: rgb(185, 180, 151);
+}
+
+.imagebox{
+    height: 570px;
+    width: 100%;
+    background-color: rgb(185, 180, 151);
+}
+
+img{
+    padding-top: 61px;
+    margin:0px -10px;
+    background-color: rgb(185, 180, 151);
+}

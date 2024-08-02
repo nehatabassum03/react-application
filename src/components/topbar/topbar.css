@@ -1,0 +1,47 @@
+.topbarContainer{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(185, 180, 151);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    font-size: 32px;
+    margin-left: 80px;
+    background-color: rgb(185, 180, 151);
+}
+.topbarLeft{
+    flex: 16;
+    background-color: rgb(185, 180, 151);
+}
+.topbarCenter{
+    flex: 1.5;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 4px;
+    margin-right: 16px;
+    border-radius: 15px;
+    background-color: rgb(185, 180, 151);
+}
+.topbarRight{
+    flex: 2;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 50px;
+    background-color: rgb(185, 180, 151);
+}
+.topbarLink{
+    background-color: rgb(185, 180, 151);  
+}
+
+.topbarImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    padding-top: 0px;
+    border: 1px solid black;
+}
