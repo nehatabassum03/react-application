@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import Topbar2 from "../../components/topbar2/Topbar2";
 import "./login.css";
 import { Link } from 'react-router-dom';
+import LoginImage from "../../assets/Login in page image.png";
 
 export default function Login() {
   const [email, setEmail] = useState('');
@@ -24,7 +25,7 @@ export default function Login() {
       <div className="login">
         <div className="loginWrapper">
           <div className="loginLeft">
-            <img src="/assets/Login in page image.png" alt="plant" className="plantimg" />
+            <img src={LoginImage} alt="plant" className="plantimg" />
           </div>
           <div className="loginRight">
             <div className="loginBox">

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './profile.css';
 import { FaPencilAlt } from "react-icons/fa";
+import ImageProfile from "../../assets/profile.jpg";
 
 
 const ProfileForm = ({ user }) => {
@@ -27,7 +28,7 @@ const ProfileForm = ({ user }) => {
   return (
     <div className="profile-form">
       <div className="profile-header">
-        <img src="/assets/profile.jpg" alt="Profile" className="profile-pic" />
+        <img src={ImageProfile} alt="Profile" className="profile-pic" />
       </div>
       <div className="profile-fields">
       <button onClick={handleEditClick} className="edit-btn">

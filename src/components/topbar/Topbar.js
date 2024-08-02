@@ -1,5 +1,6 @@
 import "./topbar.css"
 import { Link } from "react-router-dom"
+import TopbarImage1 from "../../assets/profile.jpg";
 
 export default function Topbar() {
   return (
@@ -15,7 +16,7 @@ export default function Topbar() {
         <div className="topbarRight">
             <span className="topbarLink">
               <Link to="/home/profile" style={{textDecoration: 'none', backgroundColor: 'rgb(185, 180, 151)'}}>
-              <img src="/assets/profile.jpg" alt="profile" className="topbarImg"/>
+              <img src={TopbarImage1} alt="profile" className="topbarImg"/>
               </Link>
             </span>
         </div>

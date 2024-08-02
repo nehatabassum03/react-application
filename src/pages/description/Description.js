@@ -1,5 +1,6 @@
 import Topbar2 from "../../components/topbar2/Topbar2"
 import "./description.css"
+import descriptionImage from "../../assets/image 1.png";
 
 export default function Description() {
   return (
@@ -34,7 +35,7 @@ export default function Description() {
         </div>
         </div>
         <div class="image-container">
-            <img src="/assets/image 1.png" alt="Three Leaf Clover"/>
+            <img src={descriptionImage} alt="Three Leaf Clover"/>
         </div>
     </div>
     </div>

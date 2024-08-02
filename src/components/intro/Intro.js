@@ -1,4 +1,6 @@
 import "./intro.css"
+import IntroPlant from "../../assets/hero image 2.png";
+import IntroPlant2 from "../../assets/Hero image 1.png";
 
 export default function Intro() {
   return (
@@ -8,8 +10,8 @@ export default function Intro() {
         </div>
         <div class="imagecontainer">
             <div class="imagebox">
-                <img src="/assets/hero image 2.png" alt="Plant"/>
-                <img src="/assets/Hero image 1.png" alt="Plant"/>
+                <img src={IntroPlant} alt="Plant"/>
+                <img src={IntroPlant2} alt="Plant"/>
             </div>
         </div>
     </div>
