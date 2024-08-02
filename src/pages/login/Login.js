@@ -24,7 +24,7 @@ export default function Login() {
       <div className="login">
         <div className="loginWrapper">
           <div className="loginLeft">
-            <img src="/assets/Login in page image.png" alt="plant" className="plantimg" />
+            <img src="./assets/Login in page image.png" alt="plant" className="plantimg" />
           </div>
           <div className="loginRight">
             <div className="loginBox">
