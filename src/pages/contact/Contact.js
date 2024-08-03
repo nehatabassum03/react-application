@@ -42,7 +42,7 @@ export default function Contact() {
           </div>
           <div className="contactRight">
             <div className="contactBox">
-              <form onSubmit={handleSubmit} style={{height: '200px', width: '340px'}}>
+              <form onSubmit={handleSubmit} style={{height: '200px', width: '100%'}}>
                 <input
                   placeholder="Name"
                   className="contactInput"

@@ -10,25 +10,31 @@
 
 .logo2{
     font-size: 32px;
-    margin-left: 580px;
     background-color: rgb(212, 210, 199);
+    transform: translateX(50%);
+    
 }
 .topbarLeft2{
-    flex: 16;
+    width: 50%;
     background-color: rgb(212, 210, 199);
     align-items: center;
+    display: flex;
+    justify-content: right;
 }
 
 .topbarRight2{
-    flex: 1.5;
+    width: 50%;
     font-size: 16px;
     text-align: center;
-    border: 1px solid black;
-    padding: 4px;
-    margin: 80px;
-    border-radius: 15px;
     background-color: rgb(212, 210, 199);
+    display: flex;
+    justify-content: right;
 }
 .topbarLink2{
-    background-color: rgb(212, 210, 199);  
+    background-color: rgb(212, 210, 199); 
+    border: 1px solid black; 
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-right: 80px;
+    
 }
