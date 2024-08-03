@@ -8,9 +8,10 @@ export default function Topbar2() {
             <span className="logo2">B.planet</span>
         </div>
         <div className="topbarRight2">
-        <Link to="/home/contact" style={{textDecoration: 'none', backgroundColor: 'rgb(212, 210, 199)', color: 'black'}}>
-            <span className="topbarLink2">Contact Us</span>
+            <span className="topbarLink2">
+            <Link to="/home/contact" style={{textDecoration: 'none', backgroundColor: 'rgb(212, 210, 199)', color: 'black'}}>Contact Us
         </Link>
+        </span>
         </div>
     </div>
   )
